@@ -53,7 +53,9 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
 }
-
+hr{
+    height: 10px;
+}
 h2,
 h3 {
     color: #333;
