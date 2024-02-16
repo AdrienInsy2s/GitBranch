@@ -12,6 +12,21 @@ header {
     text-align: center;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
 main {
     margin: 15px;
 }
@@ -21,43 +36,17 @@ section {
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
-    border: 3px solid #F00;
-    animation: colorchange 2s infinite;
 }
 
-@keyframes colorchange {
-    0% {
-        border-color: red;
-    }
-
-    25% {
-        border-color: yellow;
-    }
-
-    50% {
-        border-color: blue;
-    }
-
-    100% {
-        border-color: green;
-    }
-}
-
-h1 {
-    color: #ff0000;
-}
-
-h2,
-h3 {
-    color: #333;
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
     margin-bottom: 10px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
 }
 
 footer {
