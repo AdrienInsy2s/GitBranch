@@ -3,3 +3,8 @@ header {
 	justify-content: flex-end;
 	background-color: yellowgreen;
 }
+
+img:hover {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+  }
